@@ -14,7 +14,44 @@
     "model": "Diavel",
     "modelImage": "https://storage.edidomus.it/dueruote/nuovo/850/00050915.JPG",
     "year": 2010,
-    "price": 3500,
+    "price": 30500,
+    "available": true
+  },
+  {
+    "brand": "Ducati",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Ducati_red_logo.svg",
+    "model": "Monster",
+    "modelImage": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Ducati_Monster_S2R_800.png",
+    "year": 2009,
+    "price": 5500,
+    "available": false
+  },
+  {
+    "brand": "Ducati",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Ducati_red_logo.svg",
+    "model": "848",
+    "modelImage": "https://upload.wikimedia.org/wikipedia/commons/c/cc/2008_Ducati_848_Showroom.jpg",
+    "year": 2007,
+    "price": 9500,
+    "available": true
+  },
+
+  {
+    "brand": "Yamaha",
+    "brandLogo": "https://i.pinimg.com/originals/ba/28/d8/ba28d86e6aa8cd5edcf7154ccfadc734.png",
+    "model": "YZF 1000R",
+    "modelImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Yamaha_YZF1000R_ThunderAce.JPG/1920px-Yamaha_YZF1000R_ThunderAce.JPG",
+    "year": 2005,
+    "price": 4500,
+    "available": false
+  },
+  {
+    "brand": "Yamaha",
+    "brandLogo": "https://i.pinimg.com/originals/ba/28/d8/ba28d86e6aa8cd5edcf7154ccfadc734.png",
+    "model": "R6",
+    "modelImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/YAMAHA_YZF-R6_2008_Yamaha_Communication_Plaza.jpg/1920px-YAMAHA_YZF-R6_2008_Yamaha_Communication_Plaza.jpg",
+    "year": 1999,
+    "price": 10000,
     "available": true
   },
   {
@@ -33,6 +70,25 @@
     "modelImage": "https://cdn-img.moto.it/images/26431795/800x/yamaha-mt-07-2022-07.jpeg",
     "year": 2021,
     "price": 9700,
+    "available": true
+  },
+
+  {
+    "brand": "Honda",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Honda_Logo.svg",
+    "model": "NC 700",
+    "modelImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/2012_Honda_NC700SA.jpg/1920px-2012_Honda_NC700SA.jpg",
+    "year": 2004,
+    "price": 4300,
+    "available": true
+  },
+  {
+    "brand": "Honda",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Honda_Logo.svg",
+    "model": "CBR-600 RR",
+    "modelImage": "https://upload.wikimedia.org/wikipedia/commons/f/fd/HONDA_CBR600RR_2007TMCS.jpg",
+    "year": 2007,
+    "price": 9300,
     "available": true
   },
   {

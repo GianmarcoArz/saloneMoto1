@@ -1,10 +1,21 @@
+<div class="text-center">
+  <h1 class="fw-bold">SUPER CAR COMPANY</h1>
+  <p class="font">
+    Da anni che svolgiamo in nostro lavoro con dedizione e passione , tentando
+    di portare alla nostra cliententela il miglior prodotto sul mercato
+    assicurandone la sicurezza come prima necessita'.
+  </p>
+  <br />
+  <p><var>corri , corri ... CORRI . MA MAI PIU' DEL TUO ANGELO . </var></p>
+  <p>da: <var>Valentino rossi</var></p>
+</div>
 <div class="d-none d-md-block">
   <img [src]="switchimg()" alt="Car Image" class="img-fluid imgcarosel" />
 </div>
 <div
   class="py-2 bg-black bg-gradient d-flex gap-4 justify-content-center align-items-center"
 >
-  <h2 class="text-center text-body-emphasis py-2 fs-1 fw-bold">
+  <h2 class="text-center text-light py-2 fs-1 fw-bold">
     IL NOSTRO MOTO SALONE
   </h2>
   <a routerLink="/app-ducati">
@@ -30,7 +41,13 @@
   </a>
 </div>
 <div>
-  <div class="card m-5 text-bg-dark" *ngIf="motoArr">
+  <div
+    (mouseenter)="onMouseEnter()"
+    (mouseleave)="onMouseLeave()"
+    [ngStyle]="cardStyle"
+    class="card m-5 text-bg-dark"
+    *ngIf="motoArr"
+  >
     <img
       src="{{ motoArr[randomIndex].modelImage }}"
       class="card-img"
@@ -73,7 +90,13 @@
   </div>
 </div>
 <div>
-  <div class="card m-5 text-bg-dark" *ngIf="motoArr">
+  <div
+    (mouseenter)="onMouseEnter()"
+    (mouseleave)="onMouseLeave()"
+    [ngStyle]="cardStyle"
+    class="card m-5 text-bg-dark"
+    *ngIf="motoArr"
+  >
     <img
       src="{{ motoArr[randomIndex2].modelImage }}"
       class="card-img"
