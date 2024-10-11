@@ -1,0 +1,117 @@
+<div class="d-none d-md-block">
+  <img [src]="switchimg()" alt="Car Image" class="img-fluid imgcarosel" />
+</div>
+<div
+  class="py-2 bg-black bg-gradient d-flex gap-4 justify-content-center align-items-center"
+>
+  <h2 class="text-center text-body-emphasis py-2 fs-1 fw-bold">
+    IL NOSTRO MOTO SALONE
+  </h2>
+  <a routerLink="/app-ducati">
+    <img
+      class="imglogo"
+      src="https://upload.wikimedia.org/wikipedia/commons/3/36/Ducati_red_logo.svg"
+      alt=""
+    />
+  </a>
+  <a routerLink="/app-yamaha">
+    <img
+      class="imglogo bg-light rounded-5"
+      src="https://i.pinimg.com/originals/ba/28/d8/ba28d86e6aa8cd5edcf7154ccfadc734.png"
+      alt=""
+    />
+  </a>
+  <a routerLink="/app-honda">
+    <img
+      class="imglogo"
+      src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Honda_Logo.svg"
+      alt=""
+    />
+  </a>
+</div>
+<div>
+  <div class="card m-5 text-bg-dark" *ngIf="motoArr">
+    <img
+      src="{{ motoArr[randomIndex].modelImage }}"
+      class="card-img"
+      alt="img"
+    />
+    <div class="col-6 mb-5 card-img-overlay">
+      <h3
+        class="card-title rounded-5 p-2 text-center text-light bg-black bg-gradient"
+      >
+        {{ motoArr[randomIndex].brand }}
+      </h3>
+      <h4 class="rounded-5 d-flex ps-3 py-2 bg-black bg-gradient">
+        {{ motoArr[randomIndex].model }}
+      </h4>
+
+      <p class="rounded-5 d-flex ps-3 p-2 bg-black bg-gradient">
+        MOTO ITALIANA COSTRUITA NEL ANNO {{ motoArr[randomIndex].year }} PUO
+        ESSERE TUA AL PREZZO DI
+        {{ motoArr[randomIndex].price | currency : "EUR" }}
+      </p>
+    </div>
+    <button
+      [routerLink]="['/app-' + motoArr[randomIndex].brand.toLowerCase()]"
+      class="bg-black text-light p-2"
+    >
+      <p class="fs-4 m-0">VEDI LA NOSTRA OFFICINA</p>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-arrow-up-square-fill"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+<div>
+  <div class="card m-5 text-bg-dark" *ngIf="motoArr">
+    <img
+      src="{{ motoArr[randomIndex2].modelImage }}"
+      class="card-img"
+      alt="img"
+    />
+    <div class="col-6 mb-5 card-img-overlay">
+      <h3
+        class="card-title rounded-5 p-2 text-center text-light bg-black bg-gradient"
+      >
+        {{ motoArr[randomIndex2].brand }}
+      </h3>
+      <h4 class="rounded-5 d-flex ps-3 py-2 bg-black bg-gradient">
+        {{ motoArr[randomIndex2].model }}
+      </h4>
+
+      <p class="rounded-5 d-flex ps-3 p-2 bg-black bg-gradient">
+        MOTO ITALIANA COSTRUITA NEL ANNO {{ motoArr[randomIndex2].year }} PUO
+        ESSERE TUA AL PREZZO DI
+        {{ motoArr[randomIndex2].price | currency : "EUR" }}
+      </p>
+    </div>
+    <button
+      [routerLink]="['/app-' + motoArr[randomIndex2].brand.toLowerCase()]"
+      class="bg-black text-light p-2"
+    >
+      <p class="fs-4 m-0">VEDI LA NOSTRA OFFICINA</p>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-arrow-up-square-fill"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0"
+        />
+      </svg>
+    </button>
+  </div>
+</div>

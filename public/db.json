@@ -1,0 +1,56 @@
+[
+  {
+    "brand": "Ducati",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Ducati_red_logo.svg",
+    "model": "1098",
+    "modelImage": "https://upload.wikimedia.org/wikipedia/commons/8/86/Ducati_1098_2.jpg",
+    "year": 2006,
+    "price": 8500,
+    "available": false
+  },
+  {
+    "brand": "Ducati",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/3/36/Ducati_red_logo.svg",
+    "model": "Diavel",
+    "modelImage": "https://storage.edidomus.it/dueruote/nuovo/850/00050915.JPG",
+    "year": 2010,
+    "price": 3500,
+    "available": true
+  },
+  {
+    "brand": "Yamaha",
+    "brandLogo": "https://i.pinimg.com/originals/ba/28/d8/ba28d86e6aa8cd5edcf7154ccfadc734.png",
+    "model": "R1",
+    "modelImage": "https://cdn2.yamaha-motor.eu/prod/product-assets/2024/YZF1000R1/2024-Yamaha-YZF1000R1-EU-Icon_Blue-360-Degrees-001-03_Mobile.jpg",
+    "year": 2024,
+    "price": 18000,
+    "available": false
+  },
+  {
+    "brand": "Yamaha",
+    "brandLogo": "https://i.pinimg.com/originals/ba/28/d8/ba28d86e6aa8cd5edcf7154ccfadc734.png",
+    "model": "MT-07",
+    "modelImage": "https://cdn-img.moto.it/images/26431795/800x/yamaha-mt-07-2022-07.jpeg",
+    "year": 2021,
+    "price": 9700,
+    "available": true
+  },
+  {
+    "brand": "Honda",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Honda_Logo.svg",
+    "model": "CBR-1000",
+    "modelImage": "https://storage.edidomus.it/dueruote/nuovo/850/lat520.jpg",
+    "year": 2012,
+    "price": 6300,
+    "available": true
+  },
+  {
+    "brand": "Honda",
+    "brandLogo": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Honda_Logo.svg",
+    "model": "RR-1000",
+    "modelImage": "https://cdn-img.moto.it/images/20620775/HOR_STD/800x/honda-cbr-1000-rr-r-2020-01.jpeg",
+    "year": 2020,
+    "price": 21700,
+    "available": false
+  }
+]
