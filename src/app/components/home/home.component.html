@@ -63,8 +63,10 @@
         {{ motoArr[randomIndex].model }}
       </h4>
 
-      <p class="rounded-5 d-flex ps-3 p-2 bg-black bg-gradient">
-        MOTO ITALIANA COSTRUITA NEL ANNO {{ motoArr[randomIndex].year }} PUO
+      <p
+        class="rounded-5 d-flex ps-3 p-2 bg-black bg-gradient d-none d-lg-block"
+      >
+        MOTO ITALIANA COSTRUITA NEL ANNO {{ motoArr[randomIndex].year }} PUO'
         ESSERE TUA AL PREZZO DI
         {{ motoArr[randomIndex].price | currency : "EUR" }}
       </p>
@@ -112,7 +114,9 @@
         {{ motoArr[randomIndex2].model }}
       </h4>
 
-      <p class="rounded-5 d-flex ps-3 p-2 bg-black bg-gradient">
+      <p
+        class="rounded-5 d-flex ps-3 p-2 bg-black bg-gradient d-none d-lg-block"
+      >
         MOTO ITALIANA COSTRUITA NEL ANNO {{ motoArr[randomIndex2].year }} PUO
         ESSERE TUA AL PREZZO DI
         {{ motoArr[randomIndex2].price | currency : "EUR" }}
